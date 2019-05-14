@@ -28,7 +28,7 @@ p{
   -webkit-transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
   transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
 
-  position:absolute;
+  position: fixed;
   left:50%;
   top:50px;
   margin-left:-180px;
