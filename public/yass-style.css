@@ -4,6 +4,11 @@ body{
   background: black;
 }
 
+h1{
+  text-align: center;
+  color: lime;
+}
+
 h2{
   color: white;
 }
@@ -40,6 +45,7 @@ p{
 a
  {
   font-weight: bold;
+  text-align: center;
   font-size: 12pt;
   color: white;
 }
