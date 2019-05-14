@@ -32,9 +32,9 @@ p{
 
 
   position: fixed;
-  left:50%;
+  left:33%;
   /* top:50px; */
-  margin-left:-180px;
+/*  margin-left:-180px; */
 
 
   -webkit-animation: anim 3s;
@@ -55,9 +55,8 @@ a
 }
 
 img {
-  vertical-align: middle;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @-webkit-keyframes anim {
