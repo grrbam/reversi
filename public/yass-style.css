@@ -37,6 +37,13 @@ p{
   animation-iteration-count:infinite;
 }
 
+a
+ {
+  font-weight: bold;
+  font-size: 12pt;
+  color: white;
+}
+
 @-webkit-keyframes anim {
     0%{text-shadow:-6px 4px 0px red;}
     10% {text-shadow:4px -6px 0px green;}
