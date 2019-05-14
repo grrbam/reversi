@@ -54,6 +54,12 @@ a
   color: white;
 }
 
+img {
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @-webkit-keyframes anim {
     0%{text-shadow:-6px 4px 0px red;}
     10% {text-shadow:4px -6px 0px green;}
