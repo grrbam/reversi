@@ -30,12 +30,12 @@ p{
   -webkit-transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
   transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
 
-/*
+
   position: fixed;
   left:50%;
-  top:50px;
+  /* top:50px; */
   margin-left:-180px;
-*/
+
 
   -webkit-animation: anim 3s;
   -webkit-animation-timing-function: linear;
@@ -48,7 +48,6 @@ p{
 
 a
  {
-  font-weight: bold;
   font-family: sans-serif;
   text-align: center;
   font-size: 12pt;
