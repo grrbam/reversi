@@ -1,88 +1,10 @@
-body{
-  -webkit-perspective: 500px;
-  perspective: 500px;
-  background: black;
-}
-
-h1{
-  font-family: sans-serif;
-  text-align: center;
-  color: white;
-}
-
-h2{
-  color: white;
-}
-
-p{
-  color:black;
-  text-align: center;
-
-  width:auto;
-  height:250px;
-
-  font-family: 'Oswald', sans-serif;
-  font-size:9em;
-  line-height:1;
-  margin:0;
-  padding:0;
-
-  -webkit-transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
-  transform: rotateX(25deg) rotateY(20deg) rotateZ(-3deg);
-
-
-  position: fixed;
-  left:33%;
-  /* top:50px; */
-/*  margin-left:-180px; */
-
-
-  -webkit-animation: anim 3s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count:infinite;
-
-  animation: anim 3s;
-  animation-timing-function: linear;
-  animation-iteration-count:infinite;
-}
-
-a
- {
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 12pt;
-  color: white;
-}
+#header-row {
+  background-color: #E6BD45;
+  font-family: 'Bungee Shade', cursive;
+  color: #303030;
+  font-size: 24pt;
+  }
 
 img {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-@-webkit-keyframes anim {
-    0%{text-shadow:-6px 4px 0px red;}
-    10% {text-shadow:4px -6px 0px green;}
-    20% {text-shadow:-9px 4px 0px blue;}
-    30% {text-shadow:4px -6px 0px yellow;}
-    40% {text-shadow:-8px 4px 0px orange;}
-    50% {text-shadow:4px 5px 0px purple;}
-    60% {text-shadow:-6px 4px 0px brown;}
-    70% {text-shadow:4px 7px 0px pink;}
-    80% {text-shadow:-9px -4px 0px lime;}
-    90% {text-shadow:4px -6px 0px cyan;}
-    100% {text-shadow:-9px 4px 0px teal;}
-}
-
-@keyframes anim {
-    0%{text-shadow:-6px 4px 0px red;}
-    10% {text-shadow:4px -6px 0px green;}
-    20% {text-shadow:-9px 4px 0px blue;}
-    30% {text-shadow:4px -6px 0px yellow;}
-    40% {text-shadow:-8px 4px 0px orange;}
-    50% {text-shadow:4px 5px 0px purple;}
-    60% {text-shadow:-6px 4px 0px brown;}
-    70% {text-shadow:4px 7px 0px pink;}
-    80% {text-shadow:-9px -4px 0px lime;}
-    90% {text-shadow:4px -6px 0px cyan;}
-    100% {text-shadow:-9px 4px 0px teal;}
+  padding: 50px;
 }
