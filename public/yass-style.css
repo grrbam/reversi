@@ -8,3 +8,13 @@
 img {
   padding: 50px;
 }
+
+p {
+  font-family: sans-serif;
+  color: #303030;
+}
+
+button {
+  font-family: sans-serif;
+  color: #303030;
+}
