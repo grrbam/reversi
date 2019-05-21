@@ -13,6 +13,19 @@ function getUrlParameters(whichParams)
     }
   }
 }
+var username = getUrlParameters('username');
+if('undefined' == typeof username || !username){
+  username = 'Anonymous_'+Math.random();
+}
 
 
 $('#messages').append('<h4>' + getUrlParameters('username')+'</h4>');
+
+
+/* Connect to the socket server */
+
+var socket = io.connect();
+
+socket.on('log',function(array){
+  console.log.apply(console,array);
+});
