@@ -21,6 +21,7 @@ if('undefined' == typeof username || !username){
 var chat_room = getUrlParameters('game_id');
 if('undefined' == typeof chat_room || !chat_room){
   chat_room = 'lobby';
+  }
 
 /* Connect to the socket server */
 var socket = io.connect();
@@ -47,11 +48,13 @@ socket.on('join_room_response', function(payload){
 
   /* If we don't have an entry for this person */
   if(dom_elements.length == 0){
-    var nodeA = $('<div></div>')
+    var nodeA = $('<div></div>');
     nodeA.addClass('socket_'+payload.socket_id);
-    var nodeB = $('<div></div>')
+    
+    var nodeB = $('<div></div>');
     nodeB.addClass('socket_'+payload.socket_id);
-    var nodeC = $('<div></div>')
+    
+    var nodeC = $('<div></div>');
     nodeC.addClass('socket_'+payload.socket_id);
 
     nodeA.addClass('w-100');
@@ -71,6 +74,7 @@ socket.on('join_room_response', function(payload){
     nodeB.slideDown(1000);
     nodeC.slideDown(1000);
   }
+  
   else {
     var buttonC = makeInviteButton();
     $('.socket_'+payload.socket_id+' button').replaceWith(buttonC);
