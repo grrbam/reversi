@@ -1,8 +1,9 @@
 #header-row {
-  background-color: #E6BD45;
-  font-family: 'Bungee Shade', cursive;
-  color: #303030;
+  background-color: #BEDB39;
+  font-family: 'Bungee', cursive;
+  color: #1F8A70;
   font-size: 24pt;
+  padding-top: .5rem;
   }
 
 img {
@@ -17,4 +18,25 @@ p {
 button {
   font-family: sans-serif;
   color: #303030;
+}
+
+.btn-secondary {
+  width: 150px;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.btn-success {
+  margin: 10px;
+}
+
+.img-fluid {
+  padding: 30px;
+}
+
+.h2 {
+  margin-top: .5rem;
 }
