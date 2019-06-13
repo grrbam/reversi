@@ -42,7 +42,7 @@ form {
 }
 
 .col-xl-6 {
-  overflow-y: auto;
-  height: 650px;
-  overflow-wrap: break-word;
+  overflow-y: auto!important;
+  height: 650px!important;
+  overflow-wrap: break-word!important;
 }
