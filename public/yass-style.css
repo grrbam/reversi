@@ -40,3 +40,9 @@ form {
 .h2 {
   margin-top: .5rem;
 }
+
+.col-xl-6 {
+  overflow-y: auto;
+  height: 650px;
+  overflow-wrap: break-word;
+}
